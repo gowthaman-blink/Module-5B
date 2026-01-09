@@ -31,6 +31,7 @@ print()
 mer=pd.concat([df1,df2])
 print("Join the said two dataframes along rows:")
 print(mer)
+
 ```
 
 ## Output
