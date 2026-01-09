@@ -18,6 +18,7 @@ To create and display a **DataFrame** using the **Pandas** library in Python fro
 
 ## 💻 Program
 ```
+
 import pandas as pd 
 import numpy as np 
 exam_data  = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 
@@ -28,6 +29,7 @@ exam_data  = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Mich
 labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'] 
 df = pd.DataFrame(exam_data , index=labels) 
 print(df)
+
 ```
 
 ## Output
